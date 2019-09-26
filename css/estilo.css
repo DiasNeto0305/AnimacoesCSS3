@@ -1,0 +1,47 @@
+html,body{
+	display: block;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 2px solid #e5e5e5;
+}
+.navbar {
+	background: #15243a
+}
+#Home {
+	height: 650px;
+}
+#texto-2 {
+	padding-top: 250px;
+}
+.title-color {
+	color: gold;
+}
+#question {
+	height: 350px;
+}
+.col-md-4{
+	text-align: center;
+}
+#tamanho {
+	width: 80%;
+	float: right;
+}
+#footer {
+	width: 50%;
+}
+.title {
+    animation: aparece 2s;
+}
+
+@keyframes aparece {    
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
